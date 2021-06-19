@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 * {
     margin: 0px;
@@ -25,15 +26,13 @@ body {
 }
 
 .container > .logo {
-    background-color: white;
-    padding: 10px 10px;
     border-radius: 10px;
 }
 
 .container > .logo > a {
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: rgb(185, 185, 185);
+    font-size: 1.6em;
     font-weight: bolder;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -54,8 +53,41 @@ body {
 .container > nav > .itens > li > a {
     padding: 10px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(185, 185, 185);
     font-size: 20px;
     font-weight: bolder;
     letter-spacing: 2px;
+}
+
+.center {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    color: rgb(185, 185, 185);
+    background-color: black;
+    border-radius: 90px 0px 90px 0px;
+    border: 3px solid rgb(255, 255, 255) ;
+}
+
+.texto-confianca  {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        align-items: center;
+        font-size: 3em;
+        text-transform: uppercase;
+}
+
+.center > .spd-code {
+    font-size: 1em;
+    padding: 25px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
 }
