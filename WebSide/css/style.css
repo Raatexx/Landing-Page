@@ -17,3 +17,45 @@ body {
     
 }
 
+.container {
+    padding: 60px 60px 0px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container > .logo {
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.container > .logo > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.container > nav {
+} 
+
+.container > nav > .itens {
+    display: flex;
+}
+
+.container > nav > .itens > li {
+
+}
+
+.container > nav > .itens > li > a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
