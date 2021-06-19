@@ -32,6 +32,7 @@ body {
 .container > .logo > a {
     text-decoration: none;
     color: rgb(185, 185, 185);
+    padding: 20px;
     font-size: 1.6em;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -40,6 +41,9 @@ body {
 }
 
 .container > nav {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
 } 
 
 .container > nav > .itens {
@@ -61,32 +65,21 @@ body {
 
 .center {
     position: absolute;
-    top: 73%;
+    top: 50%;
     left: 50%;
+    padding: 15px;
     transform: translate(-50%, -50%);
     text-align: center;
     align-items: center;
     color: rgb(185, 185, 185);
-    background-color: black;
-    border-radius: 90px 0px 90px 0px;
     border: 3px solid rgb(255, 255, 255) ;
 }
 
-.texto-confianca  {
-        color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        align-items: center;
-        font-size: 3em;
-        text-transform: uppercase;
-}
 
 .center > .spd-code {
-    font-size: 1em;
-    padding: 25px;
+    word-spacing: 10px;
+    font-size: 3em;
+    padding: 10px;
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
     font-weight: normal;
