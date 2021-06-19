@@ -7,6 +7,6 @@ HTML - CSS
 
  # Instrutor
 
- <a href="https://github.com/w1neer">W1neer</a>
+ <a href="https://github.com/w1neer">w1neer</a>
 
 
