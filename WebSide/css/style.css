@@ -50,10 +50,6 @@ body {
     display: flex;
 }
 
-.container > nav > .itens > li {
-
-}
-
 .container > nav > .itens > li > a {
     padding: 10px;
     text-decoration: none;
